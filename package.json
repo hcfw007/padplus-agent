@@ -1,0 +1,24 @@
+{
+  "name": "padplus-agent",
+  "description": "Wechat agent base on Padplus puppet",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcfw007/padplus-agent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hcfw007/padplus-agent/issues"
+  },
+  "homepage": "https://github.com/hcfw007/padplus-agent#readme",
+  "dependencies": {
+    "@juzi/wechaty": "^1.0.52",
+    "@juzi/wechaty-puppet-padplus": "^1.3.2"
+  }
+}
